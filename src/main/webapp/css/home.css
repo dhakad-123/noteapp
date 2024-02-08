@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.bg{
+	position:relative;
+	width:100%;
+}
+.container{
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+}
+.note{
+	margin-left:40%;
+	height:200px;
+	width:200px;
+}
+@use postcss-preset-env {
+  stage: 0;
+}
+body{
+	/*background-image: linear-gradient(to right, #00b09b, #96c93d);*/
+	background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+	
+}
+
+:root {
+  --color-background: ;
+  --stroke-width: calc(1em / 16);
+  --font-size: 6vmin;
+  --font-weight: 50px;
+  --letter-spacing: calc(1em / 8);
+}
+
+.quick {
+  background-clip: text;
+  background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+  color: var(--color-background);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  letter-spacing: var(--letter-spacing);
+  padding: calc(--stroke-width / 2);
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: var(--stroke-width);
+  margin-left:50px;
+}
+.logo{
+	display:flex;
+}
+@media screen and (max-width:300px) {
+	.bg{
+	position:relative;
+	width:100%;
+}
+.container-2{
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+}
+  .note{
+	height:200px;
+	width:200px;
+	margin-left:30%;
+}
+.button {
+    /* Adjust the styles for the button on smaller screens */
+    margin:auto;
+    width:200px; /* Adjust the width as needed */
+  }
+.home-i{
+	width:30px;
+	height:30px;
+	margin-top:2%;
+	margin-left:10px;
+
+}
+ 
+}
+.home-i{
+	width:40px;
+	height:40px;
+	margin-top:2%;
+	margin-left:10px;
+
+}
+.button {
+  background-color: Black; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left:38%;
+  cursor: pointer;
+  border-radius: 12px;
+  width:300px;
+  height:50px;
+}
+.button:hover {
+  background-color: #333; /* Light black color on hover */
+}
+a{
+	text-decoration:none;
+}
+ul{
+display:flex;
+margin-left:600px;
+margin-top:50px;}
+li{
+margin-right:40px;
+font-size:20px;
+list-style-type:none;
+font-weight:10px;
+}
+i{
+	margin-right:5px;
+}
+.container3{
+	display:flex;
+}
